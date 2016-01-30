@@ -30,7 +30,7 @@ public class FirstActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                if(i==32||i==33||i==34){
+                if(i==31||i==32||i==33){
                     Intent intent=new Intent(FirstActivity.this,MainActivity.class);
                     intent.putExtra("place",list.get(i));
                     startActivity(intent);
